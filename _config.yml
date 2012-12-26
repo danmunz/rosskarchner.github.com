@@ -1,0 +1,7 @@
+site_name: 'Ross Karchner'
+site_url: 'http://karchner.com'
+markdown: rdiscount
+rdiscount:
+    extensions: [smart]
+permalink: /articles/:title
+paginate: 3
