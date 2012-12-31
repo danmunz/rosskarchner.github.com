@@ -1,5 +1,5 @@
 site_name: 'Ross Notes'
-site_url: 'http://karchner.com'
+site_url: 'http://ross.karchner.com'
 markdown: rdiscount
 rdiscount:
     extensions: [smart]

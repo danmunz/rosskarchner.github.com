@@ -4,6 +4,6 @@ layout: default
 
 {% for post in paginator.posts %}
 
-<h2> {{ post.title }}</h2>
+<h2><a href="{{ site.site_url}}{{post.url}}"> {{ post.title }}</a></h2>
 
 {% endfor %}
