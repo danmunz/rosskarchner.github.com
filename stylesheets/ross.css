@@ -6,14 +6,14 @@ body{font-family: 'Oxygen', sans-serif;
         font-size:14px;
 }
 
-p {margin-top:.5em; max-width:546px;}
-
+p  {margin-top:.5em; max-width:546px;}
+#disqus_thread{ margin-top:2em; max-width:546px;}
 h1{font-family: 'Archivo Black', sans-serif;
 margin-top: 2em;}
 
 h1 a{text-decoration:none}
 
-ul{list-style-type: circle; margin-top:.5em}
+ul{list-style-type: circle; margin-top:.5em;max-width:546px}
 li{margin-left:2em;}
 
 #metadata{font-style:italic}
