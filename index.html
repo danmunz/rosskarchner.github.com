@@ -3,7 +3,16 @@ layout: default
 ---
 
 {% for post in paginator.posts %}
+<h1> Ross Karchner </h1>
+<p>I'm a web developer in the Washington, DC area.</p>
+<p>ross@karchner.com</p>
+<p>The best places to find me online are:</p>
+<ul>
+    <li><a href="http://twitter">Twitter</a></li>
+    <li><a href="http://github.com/rosskarchner">Github</a></li>
+</ul>
 
-<h2><a href="{{ site.site_url}}{{post.url}}"> {{ post.title }}</a></h2>
+<h1> Recent posts</h1>
+<h3><a href="{{ site.url}}{{post.url}}"> {{ post.title }}</a></h3>
 
 {% endfor %}
