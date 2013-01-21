@@ -15,3 +15,5 @@ h1 a{text-decoration:none}
 
 ul{list-style-type: circle; margin-top:.5em}
 li{margin-left:2em;}
+
+#metadata{font-style:italic}
