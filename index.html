@@ -5,14 +5,15 @@ layout: default
 {% for post in paginator.posts %}
 <h1> Ross Karchner </h1>
 <p>I'm a web developer in the Washington, DC area.</p>
-<p>ross@karchner.com</p>
-<p>The best places to find me online are:</p>
+<p>If you'de like to reach me, send an email to ross@karchner.com</p>
+<p>Some other places to find me online are:</p>
 <ul>
     <li><a href="http://twitter">Twitter</a></li>
     <li><a href="http://github.com/rosskarchner">Github</a></li>
+    <li><a href="http://www.linkedin.com/in/rosskarchner/">LinkedIn</a></li>
 </ul>
 
-<h1> Recent posts</h1>
+<h1> Recent posts<a href="/feed.xml"> <img src="/images/feed-icon-14x14.png"/></h1>
 <h3><a href="{{ site.url}}{{post.url}}"> {{ post.title }}</a></h3>
 
 {% endfor %}
