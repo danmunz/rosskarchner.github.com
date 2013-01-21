@@ -1,0 +1,16 @@
+---
+layout: post
+title: "hey 2013"
+date: January 21, 2013
+---
+
+I start and stop blogging on a pretty regular cycle. Usually I'm pretty sheepish about this, but this time, I'm embracing it. Who knows what my next blogging burnout/rebirth cycle will look like?
+
+In this iteration, I want to use the blog to document (and to an extent, catalyze) some projects I want to work on and patterns I want to develop:
+
+- Improve my ability to focus and single-task.
+- Deepen my understanding of open source tools I use every day, like git, vim, Bash, Django, and Linux
+- Get better at Javascript, and productive with C
+- Learning golf (really!)
+- Finally doing something with the Arduino gathering dust in my closet
+- Switching to Linux, and generally an embrace of things open and non-proprietary

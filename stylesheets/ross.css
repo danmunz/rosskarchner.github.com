@@ -3,11 +3,15 @@ body{font-family: 'Oxygen', sans-serif;
 		padding-right: 40px;
 		padding-bottom: 10px;
 		padding-left: 70px;
+        font-size:14px;
 }
 
-p {margin-top:.5em}
+p {margin-top:.5em; max-width:546px;}
 
 h1{font-family: 'Archivo Black', sans-serif;
 margin-top: 2em;}
 
 h1 a{text-decoration:none}
+
+ul{list-style-type: circle;}
+li{margin-left:2em;}
