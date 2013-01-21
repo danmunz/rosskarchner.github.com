@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% for post in paginator.posts %}
 <h1> Ross Karchner </h1>
 <p>I'm a web developer in the Washington, DC area.</p>
 <p>If you'de like to reach me, send an email to ross@karchner.com</p>
@@ -13,7 +12,9 @@ layout: default
     <li><a href="http://www.linkedin.com/in/rosskarchner/">LinkedIn</a></li>
 </ul>
 
-<h1> Recent posts<a href="/feed.xml"> <img src="/images/feed-icon-14x14.png"/></h1>
-<h3><a href="{{ site.url}}{{post.url}}"> {{ post.title }}</a></h3>
-
+<h1> Recent posts<a href="/feed.xml"> <img src="/images/feed-icon-14x14.png"/></a></h1>
+    <ul>
+{% for post in paginator.posts %}
+<li><a href="{{ site.url}}{{post.url}}"> {{ post.title }}</a></li>
 {% endfor %}
+</ul>
