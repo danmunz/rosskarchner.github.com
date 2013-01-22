@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Back to school"
-date: January 21, 2013
+date: January 21, 2013 11:00 PM
 ---
 I left something big off the "projects" list in my last post:
 
