@@ -9,7 +9,7 @@ body{font-family: 'Oxygen', sans-serif;
 p  {margin-top:1.25em; max-width:546px;}
 #disqus_thread{ margin-top:2em; max-width:546px;}
 h1{font-family: 'Archivo Black', sans-serif;
-margin-top: 2em;}
+margin-top: 2em;font-size: 2em;}
 
 h1 a{text-decoration:none}
 
